@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purpose Forward</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<style>
+    .hero{
+        background-image: url('assets/img/hero.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.774);
+        height: 90vh;
+        position: relative;
+    }
+</style>
+<body>
+    <a href="" id="top"></a>
+    <header class="header">
+        <div class="contain top-flex">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="">
+            </div>
+            <nav class="nav-menu menu">
+                <a href="#top" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link ">About Us</a>
+                <a href="#services" class="nav-link ">Services</a>
+                <a href="#videos" class="nav-link ">Impact</a>
+                <a href="#npr" class="nav-link ">Resources</a>
+                <a href="#donate" class="nav-link ">Donate</a>
+                <a href="#contact" class="nav-link ">Contact Us</a>
+            </nav>
+            <a href="#contact" class="book">Book A Consultation</a>
+            <a href="#" onclick="toggleMenu()" id="toggle"><i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="contain hero-content">
+            <h1>We Help Nigerian Non-Profits <br> get the operational framework <br> they need to grow.</h1>
+            <p>Whether you're a small grassroots organization withoutany staff, or you're <br>
+                a growing an established team - our experts can help with all of your <br>
+                operational and strategic needs.</p>
+            <button class="book">Book A Consultation</button>
+        </div>
+    </section>
+
+    <a href="" id="services"></a>
+    <section class="services">
+        <div class="contain service">
+            <h1 class="text-dark">Our Services</h1>
+            <p>The services below are to highlight the types of functions we manage, but we recognize</p>
+            <p>your needs are unique. When engaged, we develop a custom solution with you to ensure an <br>
+                exceptional stakeholder experience.</p>
+        </div>
+        <div class="contain box-service">
+            <div class="box-list">
+                <i class="s-icons fa fa-handshake"></i>
+                <h3>Support</h3>
+                <p>Improve financial planning & analysis, organizational design, and operational practices to generate new revenue streams while reducing costs.</p>
+                <a href="#">Support Services <i class="fa fas-right-arrow"></i></a>
+            </div>
+            <div class="box-list">
+                <i class="s-icons fa fa-handshake"></i>
+                <h3>Consultancy</h3>
+                <p>Improve financial planning & analysis, organizational design, and operational practices to generate new revenue streams while reducing costs.</p>
+                <a href="#">Consultancy Services <i class="fa fas-right-arrow"></i></a>
+            </div>
+            <div class="box-list">
+                <i class="s-icons fa fa-handshake"></i>
+                <h3>Training</h3>
+                <p>Improve financial planning & analysis, organizational design, and operational practices to generate new revenue streams while reducing costs.</p>
+                <a href="#">Training Services <i class="fa fas-right-arrow"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <a href="" id="about"></a>
+    <section class="about">
+        <div class="box-about">
+            <div class="about-img">
+                <img src="assets/img/about.webp" alt="">
+            </div>
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>Purpose Forward is a Nigerian not-for-profit corporation that was established in early 2021 to accelerate the growth
+                    of grassroots, social purpose organizations. The founders have spent most of the last decade in senior roles in the
+                    not-for-profit sector with large community charities and hospotals.
+                </p>
+                <p>While these established organizations plays a crucial role in making our communities better, they are not designed to
+                    innovate. The problems of our time require modern solutions to work in a system that has historically been designed
+                    with lots of processes to mitigate risk. Purpose Forward was founded to help grassroots organizations navigate this
+                    complex system and effectively scale to mazimize impact.
+                </p>
+                <button class="about-contact book">More About Us</button>
+            </div>
+        </div>
+    </section>
+
+    <a href="" id="videos"></a>
+    <section class="video">
+        <div class="box-video">
+            <div class="video-text">
+                <h6><b>(video)</b></h6>
+                <h1>Non-profit, charity, or social enterprise? Which structure is right for my social cause?</h1>
+                <p>While these established organizations plays a crucial role in making our communities better, they are not designed to
+                    innovate. The problems of our time require modern solutions to work in a system that has historically been designed
+                    with lots of processes to mitigate risk. Purpose Forward was founded to help grassroots organizations navigate this
+                    complex system and effectively scale to mazimize impact.
+                </p>
+                <button class="video-contact book">Watch On Youtube</button>
+            </div>
+            <div class="video-img">
+                <video muted autoplay plays-inline class="background-clip" ><source src="assets/img/video.mp4" type="video/mp4" ></video>
+            </div>
+        </div>
+    </section>
+
+    <a href="" id="faq"></a>
+    <section class="faq">
+        <div class="contain faq-title service">
+            <h1 class="text-dark">Frequently Asked Questions</h1>
+        </div>
+        <div class="contain faq-content">
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>How to write to us?</h3>
+                        <i class="arrow fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>About Web Development?</h3>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>About Our Team Members?</h3>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>How to Register?</h3>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>About our courses?</h3>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>Visit our Events Centers</h3>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-heading">
+                        <h3>Web login and navigations</h3>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <p class="accordion-content">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos commodi itaque ipsam deleniti, aperiam voluptatem. Vitae natus sint dolores aperiam consequatur, corporis adipisci? Odit, provident excepturi sequi neque eligendi iste.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a href="" id="npr"></a>
+    <section class="npr">
+        <div class="contain service">
+            <h6><b>Articles</b></h6>
+            <h1 class="text-dark">Non-Profit Resources</h1>
+            <p>The services below are to highlight the types of functions we manage, but we recognize
+                <br>your needs are unique. When engaged, we develop a custom solution with you to ensure an <br>
+                exceptional stakeholder experience.</p>
+        </div>
+        <div class="contain box-service">
+            <div class="box-p">
+                <img src="assets/img/log.jpeg" alt="">
+                <h5>How robotic process automation (RPA) can transform the charitable sector</h5>
+                <span>May 26, 2024</span>
+            </div>
+            <div class="box-p">
+                <img src="assets/img/hero.jpeg" alt="">
+                <h5>7 budgeting tips to mazimize your social impact with your non-profit</h5>
+                <span>May 24, 2024</span>
+            </div>
+            <div class="box-p">
+                <img src="assets/img/feed-6.jpg" alt="">
+                <h5>Non-profit, charity, social enterprise: Which social purpose model is right for my cause?</h5>
+                <span>May 14, 2024</span>
+            </div>
+        </div>
+    </section>
+
+    <a href="" id="contact"></a>
+    <section class="contacts-section">
+        <div class="contain contacts">
+            <div class="contacts-details">
+                <h1 class="text-dark">Subscribe to receive our monthly newsletter and updatess about Purpose Forward</h1>
+                <ul>
+                    <li>Updates & News</li>
+                    <li>Notice of new services</li>
+                    <li>Instant access to new free content</li>
+                </ul>
+            </div>
+            <div class="box-form">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">First Name*</label>
+                        <input type="text" name="" placeholder="First Name" id="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Last Name*</label>
+                        <input type="text" name="" placeholder="Last Name" id="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email Address*</label>
+                        <input type="text" name="" placeholder="Email Address" id="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Organization</label>
+                        <input type="text" name="" placeholder="Organization" id="">
+                    </div>
+                    <div class="form-group">
+                        <input type="button" name="" value="SIGN UP" placeholder="First Name" id="">
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </section>
+
+    <section class="donate-section">
+        <div class="contain donate">
+            <div class="donate-text">
+                <h1>
+                    Donate now to help build <br> thriving, resilient, inclusive <br> communities!
+                </h1>
+            </div>
+            <div class="donate-btn">
+                <button>Donate Now</button>
+            </div>
+        </div>        
+    </section>
+
+    <footer class="footer-section">
+        <div class="contain footer">
+            <div class="foot">
+                <h4><b>Purpose Forward</b></h4>
+                <p>We are a non-profit group of <br> exparts that can help you with <br>
+                    all of your non-profit <br> operational and strategic needs.</p>                
+            </div>
+            <div class="foot">
+                <h4><b>Browse</b></h4>
+                <ol>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Impact</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Consultation</a></li>
+                </ol>
+            </div>
+            <div class="foot">
+                <h4><b>Our Service</b></h4>
+                <ol>
+                    <li><a href="#">Support Services</a></li>
+                    <li><a href="#">Consultation Services</a></li>
+                    <li><a href="#">Training & Education</a></li>
+                </ol>
+            </div>
+            <div class="foot">
+                <h4><b>Contact Us</b></h4>
+                <ol>
+                    <li><i class="fas fa-map-pin"></i> Toronto Ontario, Canada.</li>
+                    <li><i class="fas fa-envelope"></i> info@purposeforward.org</li>
+                </ol>
+                <a href="#"><i class="iconz fab fa-facebook"></i></a>
+                <a href="#"><i class="iconz fab fa-twitter"></i></a>
+                <a href="#"><i class="iconz fab fa-youtube"></i></a>
+                <a href="#"><i class="iconz fab fa-linkedin"></i></a>
+                <a href="#"><i class="iconz fab fa-instagram"></i></a>
+            </div>
+        </div>        
+    </footer>
+    
+   <script src="assets/js/all.min.js"></script>
+   <script src="assets/js/jquery-3.7.1.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/index.js"></script>
+</body>
+</html>
